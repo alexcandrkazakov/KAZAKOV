@@ -1,0 +1,54 @@
+a=int(input("Большее основание "))
+b=int(input("Меньшее основание "))
+h=int(input("Высота "))
+c= h*2+((a-b)/2)*2. # корень квадратный из суммы
+p=a+b+2*c
+print("периметр"+"="+str(p))
+
+a=int(input("обьем "))
+b=int(input("масса "))
+плотность=a*b
+print(плотность)
+
+a=int(input("Первое число "))
+b=int(input("Второе число "))
+g=input("Что вы хотите сделать *,/,+,-")
+if g=="*":
+    print(a*b)
+elif g=="/":
+    print(a/b)
+elif g=="+":
+    print(a+b)
+elif g=="-":
+    print(a-b)
+else: print("error")    
+
+a=int(input("Первое число "))
+b=int(input("Второе число "))
+c=input("геометрическое или арифмитическое? ")
+if 0<=a and 0<=b:
+    if c=="арифмитическое":
+        print((a+b)/2)
+    if c=="геометрическое":
+        print((a*b)**0.5)
+else:print ("error")
+
+a=int(input("Численность "))
+b=int(input("Площадь "))
+print("плотность равна"+" "+str(a/b))
+
+a=int(input("Первое ребро "))
+b=int(input("Второе ребро "))
+c=int(input("Третье ребро "))
+if (0<=a) and (0<=b) and (0<=c):
+    d=input("Площадь или обьем?")
+    if d== "площадь":
+        print(2*(a*b+a*c+b*c))
+    if d=="обьем":
+        print(a*b*c)
+else:print ("error")
+
+ 
+ 
+
+
