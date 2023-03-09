@@ -1,0 +1,5 @@
+b=float(input("ФУТЫ " ))
+c=float(input("километры "))
+v=c/1000*0.45
+s=(v,b)
+print(max(s))
