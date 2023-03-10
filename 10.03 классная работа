@@ -1,0 +1,52 @@
+a=float(input("м/с ")
+b=float(input("км/ч" )
+c=b/3,6
+if a>c :
+    print(a)
+if c>a:
+    print(c)
+else: print ("одинаковы")    
+
+a=float(input("сторона квадрата "))
+R=float(input("радиус круга "))
+Sк=a**2
+p=3.14 
+Sо=R**2*p
+if Sо>Sк:
+    print(Sк)
+if  Sо>Sк:
+    print(So)
+else: print("одинаковы")    
+
+p = 3.14 
+cos= float(input("cos "))
+sin = float(input("sin ")) 
+if -1<=cos<=1 and -1<=sin<=1:
+    if cos> p/4:
+        print(cos)
+    if sin <=p/4:
+        print(sin)
+    else: print("одинаковы")  
+else: print("error")    
+  
+a=float(input("дюймы "))
+b=float(input("мм "))
+c=a*25.4 
+if a>c:
+    print(a)
+if c>a:
+    print(c)
+else: print("они одинаковы")    
+
+m1=float(input("масса 1 тела"))  
+m2=float(input("масса 2 тела"))
+v1=float(input("обьем 1 тела"))
+v2=float(input("обьем 2 тела"))
+p1=m1*v1
+p2=m2*v2
+if p1>p2:
+    print(p1)
+if p2>p1:
+    print(p2)
+else: print("они одинаковы") 
+
