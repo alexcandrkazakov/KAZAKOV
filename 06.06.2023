@@ -1,0 +1,31 @@
+def XOR_cipher():
+    alfavit ='ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ'
+    c=567
+    global z
+    z=[]
+    for o in alfavit:
+        c=c-9
+        v=locals()[o]=c
+        z.append(v)
+    print(z)
+XOR_cipher()
+def xor():
+    alfavit ='ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ'
+    c=567
+    global z
+    z=[]
+    for o in alfavit:
+        c=c-9
+        v=locals()[o]=c
+        z.append(v)
+    a=input("тело шифровки ")
+    a=str.upper(a)
+    f=[]
+    c=""
+    for i in a:
+        i=(locals()[i])
+        i=str(i)
+        c+=i
+    print(c)
+    
+xor()
